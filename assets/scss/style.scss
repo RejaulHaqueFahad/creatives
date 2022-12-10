@@ -1,0 +1,18 @@
+@import
+'variables/variable';
+@import
+'abstructs/helpers',
+'abstructs/fonts';
+
+@import
+'components/footer',
+'components/your-project',
+'components/team',
+'components/blog',
+'components/agency',
+'components/hero',
+'components/header';
+
+html{
+    scroll-behavior: smooth;
+}

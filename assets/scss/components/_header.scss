@@ -1,0 +1,50 @@
+.header{
+    position: relative;
+    z-index: 99999;
+    border-bottom: 1px solid gray;
+
+    &__wrapper{
+        display: flex;
+        gap: 320px;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    &__logo-wrap{
+        max-width: 60px;
+        width: 100%;
+        cursor: pointer;
+    }
+    &__logo{
+        width: 100%;
+        height: 100%;
+    }
+    &__menu-wrapper{
+        display: flex;
+        align-items: center;
+    }
+    &__menu{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 23px;
+        font-family: "MyriadPro";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #F5F5F5;
+        text-decoration: none;
+        transition: 0.2s;
+        
+        &:hover{
+        border-bottom: 7px solid #11749E;
+        }
+    }
+    &__social-wrap{
+        margin-top: 5px;
+    }
+    &__social{
+        padding: 10px;
+        cursor: pointer;
+    }
+}

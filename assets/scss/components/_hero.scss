@@ -1,0 +1,45 @@
+.hero{
+    overflow: hidden;
+    background: url('../../../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1050px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    &__content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        min-height: 1050px;
+    }
+    &__top-wrap{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 400px;
+        margin-bottom: 50px;
+    }
+    &__top-wrap h1{
+        margin: 0;
+        font-family: "Gotham";
+        font-weight: bold;
+        font-style: normal;
+        color: white;
+        font-size: 100px;
+        text-transform: uppercase;
+    }
+    &__top-wrap p{
+        font-family: "Gotham";
+        font-weight: 600;
+        font-style: normal;
+        color: #0F749D;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 14px;
+    }
+    &__bottom-wrap{
+
+    }
+}
