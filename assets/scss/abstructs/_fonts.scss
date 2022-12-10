@@ -59,4 +59,18 @@
          url("../../../fonts/Roboto-BoldCondensed.woff2") format("woff2"),
          url("../../../fonts/Roboto-BoldCondensed.woff") format("woff"),
          url("../../../fonts/Roboto-BoldCondensed.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open-Sans";
+    src: local("Open-Sans"),
+         url("../../../fonts/OpenSans-Light.woff2") format("woff2"),
+         url("../../../fonts/OpenSans-Light.woff") format("woff"),
+         url("../../../fonts/OpenSans-Light.ttf") format("ttf");
+         font-style: normal;
+         font-weight: normal;
+         font-display: swap;
 }

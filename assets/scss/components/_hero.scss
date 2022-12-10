@@ -1,9 +1,9 @@
 .hero{
     overflow: hidden;
-    background: url('../../../images/hero-bg.png');
+    background: url('../../../images/hero-bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1050px;
+    height: 940px;
     position: absolute;
     top: 0;
     left: 0;
@@ -13,33 +13,55 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        min-height: 1050px;
+        min-height: 940px;
     }
     &__top-wrap{
         margin-left: auto;
         margin-right: auto;
-        margin-top: 400px;
-        margin-bottom: 50px;
-    }
-    &__top-wrap h1{
-        margin: 0;
-        font-family: "Gotham";
-        font-weight: bold;
-        font-style: normal;
-        color: white;
-        font-size: 100px;
-        text-transform: uppercase;
-    }
-    &__top-wrap p{
-        font-family: "Gotham";
-        font-weight: 600;
-        font-style: normal;
-        color: #0F749D;
-        font-size: 18px;
-        text-transform: uppercase;
-        letter-spacing: 14px;
+        margin-top: 340px;
+        margin-bottom: 100px;
+        h1{
+            margin: 20px;
+            font-family: "Gotham";
+            font-weight: bold;
+            font-style: normal;
+            color: white;
+            font-size: 120px;
+            text-transform: uppercase;
+        }
+        p{
+            margin: 20px;
+            font-family: "Gotham";
+            font-weight: 600;
+            font-style: normal;
+            color: #0F749D;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 18px;
+        }
     }
     &__bottom-wrap{
-
+        margin: 0 auto;
+        p{
+            font-family: "Open-Sans";
+            font-weight: normal;
+            font-style: normal;
+            font-size: 15px;
+            color: white;
+            margin: 0;
+        }   
+    }
+    &__bottom-text{
+        margin: 20px auto;   
+    }
+    &__down-arrow-wrap{
+        width: 70px;
+        height: 70px;
+        margin: 20px auto;
+        cursor: pointer;
+    }
+    &__down-arrow{
+        width: 100%;
+        height: 100%;
     }
 }
