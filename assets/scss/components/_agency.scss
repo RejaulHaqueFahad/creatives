@@ -1,0 +1,32 @@
+.agency{
+    background-color: #11749E;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    &__title{
+        text-align: center;
+        position: relative;
+
+    }
+    &__title-text{
+        color: #ffff;
+        font-family: "Gotham";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        &::after{
+            content: "W";
+            color: #3D8DB0;
+            font-family: "Roboto";
+            font-size: 176px;
+            font-style: normal;
+            font-weight: bold;
+            position: absolute;
+        }
+    }
+    &__feature-content{
+        display: flex;
+    }
+}

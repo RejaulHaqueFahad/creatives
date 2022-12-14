@@ -4,10 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 937px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    
 
     &__content{
         display: flex;

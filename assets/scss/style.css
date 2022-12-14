@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .container {
@@ -61,16 +62,43 @@ body {
   font-weight: normal;
   font-display: swap;
 }
+.agency {
+  background-color: #11749E;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.agency__title {
+  text-align: center;
+  position: relative;
+}
+.agency__title-text {
+  color: white;
+  font-family: "Gotham";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.agency__title-text::after {
+  content: "W";
+  color: #3D8DB0;
+  font-family: "Roboto";
+  font-size: 176px;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+}
+.agency__feature-content {
+  display: flex;
+}
+
 .hero {
   overflow: hidden;
   background: url("../../images/hero-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 937px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  position: relative;
 }
 .hero__content {
   display: flex;
@@ -128,9 +156,12 @@ body {
 }
 
 .header {
-  position: relative;
+  position: absolute;
   z-index: 99999;
   border-bottom: 1px solid gray;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .header__wrapper {
   display: flex;
