@@ -15,7 +15,7 @@ body {
 
 @font-face {
   font-family: "Gotham";
-  src: local("Gotham"), url("../../fonts/GothamBook.woff2") format("woff2"), url("../../fonts/GothamBook.woff") format("woff"), url("../../fonts/GothamBook.ttf") format("ttf");
+  src: local("Gotham"), url("../../fonts/Gotham-Book.woff2") format("woff2"), url("../../fonts/Gotham-Book.woff") format("woff"), url("../../fonts/Gotham-Book.ttf") format("ttf");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -70,26 +70,51 @@ body {
 .agency__title {
   text-align: center;
   position: relative;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 .agency__title-text {
   color: white;
   font-family: "Gotham";
   font-size: 40px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 550;
   text-transform: uppercase;
-}
-.agency__title-text::after {
-  content: "W";
-  color: #3D8DB0;
-  font-family: "Roboto";
-  font-size: 176px;
-  font-style: normal;
-  font-weight: bold;
-  position: absolute;
 }
 .agency__feature-content {
   display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.agency__feature-icon {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+.agency__feature-title-wrap {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: auto;
+}
+.agency__feature-title {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.agency__feature-text {
+  text-align: center;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 25px;
 }
 
 .hero {
@@ -97,7 +122,7 @@ body {
   background: url("../../images/hero-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 937px;
+  height: 100vh;
   position: relative;
 }
 .hero__content {

@@ -6,6 +6,9 @@
     &__title{
         text-align: center;
         position: relative;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        // max-width: 500px;
 
     }
     &__title-text{
@@ -13,20 +16,52 @@
         font-family: "Gotham";
         font-size: 40px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 550;
         text-transform: uppercase;
 
-        &::after{
-            content: "W";
-            color: #3D8DB0;
-            font-family: "Roboto";
-            font-size: 176px;
-            font-style: normal;
-            font-weight: bold;
-            position: absolute;
-        }
+        // &::after{
+        //     content: "W";
+        //     color: #3D8DB0;
+        //     font-family: "Roboto";
+        //     font-size: 225px;
+        //     font-style: normal;
+        //     font-weight: bold;
+        //     position: absolute;
+        // }
     }
     &__feature-content{
         display: flex;
+        gap: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+    &__feature-icon{
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 50%;
+        margin: auto;
+    }
+    &__feature-title-wrap{
+        max-width: fit-content;
+        margin: auto;
+    }
+    &__feature-title{
+        font-family: "Gotham";
+        font-style: normal;     
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 19px;
+        text-transform: uppercase;
+    }
+    &__feature-text{
+        text-align: center;
+        font-family: "Gotham";
+        font-style: normal;
+        font-weight: normal;
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 25px;
+        
     }
 }
