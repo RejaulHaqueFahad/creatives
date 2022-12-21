@@ -5,29 +5,36 @@
     
     &__title{
         text-align: center;
-        position: relative;
         margin-top: 150px;
         margin-bottom: 150px;
         // max-width: 500px;
+
+        
 
     }
     &__title-text{
         color: #ffff;
         font-family: "Gotham";
-        font-size: 40px;
+        font-size: 38px;
         font-style: normal;
         font-weight: 550;
         text-transform: uppercase;
+        position: relative;
+        z-index: 555;
 
-        // &::after{
-        //     content: "W";
-        //     color: #3D8DB0;
-        //     font-family: "Roboto";
-        //     font-size: 225px;
-        //     font-style: normal;
-        //     font-weight: bold;
-        //     position: absolute;
-        // }
+        &::before{
+            content: "W";
+            color: #3D8DB0;
+            font-family: "Roboto";
+            font-size: 260px;
+            font-style: normal;
+            font-weight: bold;
+            position: absolute;
+            text-align: center;
+            top: -130px;
+            left: 480px;
+            z-index: -1;
+        }
     }
     &__feature-content{
         display: flex;
