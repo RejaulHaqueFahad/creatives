@@ -7,10 +7,6 @@
         text-align: center;
         margin-top: 150px;
         margin-bottom: 150px;
-        // max-width: 500px;
-
-        
-
     }
     &__title-text{
         color: #ffff;
@@ -44,14 +40,19 @@
 
     }
     &__feature-icon{
+        background: #2F84A9;
         max-width: 150px;
-        max-height: 150px;
+        height: 150px;
         border-radius: 50%;
         margin: auto;
     }
-    &__feature-title-wrap{
-        max-width: fit-content;
+    &__icon{
+        max-width: 48px;
+        height: 48px;
         margin: auto;
+    }
+    &__feature-title-wrap{
+        text-align: center;
     }
     &__feature-title{
         font-family: "Gotham";

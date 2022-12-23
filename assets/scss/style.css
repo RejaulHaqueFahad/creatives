@@ -63,13 +63,20 @@ body {
   font-display: swap;
 }
 .akita {
-  padding-top: 20px;
   padding-bottom: 20px;
+  height: 100vh;
 }
 .akita__top {
   display: flex;
   gap: 30px;
   background-color: #222222;
+}
+.akita__bottom {
+  display: flex;
+}
+.akita__photo-wrap {
+  background: url("../../images/first-photo.webp");
+  background-repeat: no-repeat;
 }
 
 .agency {
@@ -112,16 +119,19 @@ body {
   margin-bottom: 50px;
 }
 .agency__feature-icon {
+  background: #2F84A9;
   max-width: 150px;
-  max-height: 150px;
+  height: 150px;
   border-radius: 50%;
   margin: auto;
 }
-.agency__feature-title-wrap {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+.agency__icon {
+  max-width: 48px;
+  height: 48px;
   margin: auto;
+}
+.agency__feature-title-wrap {
+  text-align: center;
 }
 .agency__feature-title {
   font-family: "Gotham";
@@ -249,7 +259,7 @@ body {
   border-bottom: 7px solid #11749E;
 }
 .header__social-wrap {
-  margin-top: 5px;
+  line-height: 0;
 }
 .header__social {
   padding: 10px;

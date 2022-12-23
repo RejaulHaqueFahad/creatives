@@ -1,11 +1,26 @@
 .akita{
-    padding-top: 20px;
+    // padding-top: 20px;
     padding-bottom: 20px;
+    height: 100vh;
+
+    &__content-wrap{
+
+    }
 
     &__top{
         display: flex;
         gap: 30px;
         background-color: #222222;
+
+    }
+
+    &__bottom{
+        display: flex;
+    }
+
+    &__photo-wrap{
+        background: url('../../images/first-photo.webp');
+        background-repeat: no-repeat;
 
     }
 }
